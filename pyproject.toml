@@ -1,0 +1,15 @@
+[project]
+name = "ai-personal-developer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-openai>=0.3.12",
+    "langgraph-supervisor>=0.0.16",
+    "pydantic>=2.11.3",
+    "pydantic-settings>=2.8.1",
+    "pytest>=8.3.5",
+    "pytest-cov>=6.1.1",
+    "python-env>=1.0.0",
+]
